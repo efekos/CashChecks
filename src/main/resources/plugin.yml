@@ -1,0 +1,6 @@
+name: CashChecks
+version: '${project.version}'
+main: me.efekos.cashchecks.Main
+api-version: '1.20'
+authors: [efekos]
+description: Add cash checks to your server!

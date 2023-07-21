@@ -1,0 +1,18 @@
+# When player entered a negative value to check amount.
+positive-value: '&cYou need to use a positive amount.'
+# When player wanted a check more than his all money
+not-enough: '&cYou need at least &a%amount% &cfor this.' # %amount% = amount of the money player wanted to put in a check
+# When player successfully gets his check
+success: '&aSuccessfully added a cash check of &b%amount% &ato your inventory!' # %amount% = money that player just put to a check
+
+# Details about the 'Cash Check'
+cash-check:
+
+  # Items name
+  name: '&eCash Check'
+
+  # Item's description
+  desc: '&eMoney: &a%amount%' # %amount% = amount of the money sitting in this check
+
+# When someone uses a check
+used: '&aSuccessfully used the cash check! You got &b%amount%&a.' # %amount% = amount of the money that pleyer just earned from a check
